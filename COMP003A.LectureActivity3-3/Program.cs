@@ -53,7 +53,7 @@ namespace COMP003A.LectureActivity3_3
             }
 
             // get the user's preferences for terminating the loop
-            Console.Write("Would you lie to terminate the loop at a specific number? (yes/no: ");
+            Console.Write("Would you like to terminate the loop at a specific number? (yes/no): ");
             // Convert the respomse toa lowercase to make it case-inseneitive
             string terminateResponse = Console.ReadLine().ToLower();
             // Initialize the termination number to 0
@@ -91,7 +91,7 @@ namespace COMP003A.LectureActivity3_3
             }
 
             // Prompt the user to restart the program
-            Console.Write("Enter 'restart' to try again ot any other key to exit: ");
+            Console.Write("Enter 'restart' to try again or any other key to exit: ");
             // Convert the response to lowecase to make it case-insensitive
             string restart = Console.ReadLine().ToLower();
 
